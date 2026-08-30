@@ -514,10 +514,10 @@ The HashMap uses separate chaining with linked lists.
 | ----------- | ------: | ---------: |
 | `hash()`    |    O(k) |       O(k) |
 | `set()`     |    O(1) |       O(n) |
-| `get()`     |    O(1) |       O(1) |
+| `get()`     |    O(1) |       O(n) |
 | `has()`     |    O(1) |       O(n) |
 | `remove()`  |    O(1) |       O(n) |
-| `length()`  |    O(1) |       O(n) |
+| `length()`  |    O(1) |       O(1) |
 | `clear()`   |    O(n) |       O(n) |
 | `keys()`    |    O(n) |       O(n) |
 | `values()`  |    O(n) |       O(n) |
