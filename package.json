@@ -1,0 +1,19 @@
+{
+  "name": "datastructuresalgorithms",
+  "version": "1.0.0",
+  "description": "A collection of data structures and algorithms implemented in JavaScript as part of my journey to strengthen my computer science fundamentals, problem-solving skills, and understanding of algorithms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@jest/globals": "^30.4.1",
+    "babel-jest": "^30.4.1",
+    "jest": "^30.4.2"
+  }
+}
