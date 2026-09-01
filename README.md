@@ -2,7 +2,7 @@
 
 A collection of **data structures and algorithms implemented from scratch in JavaScript** as part of my journey to strengthen computer science fundamentals, problem-solving skills, and algorithmic thinking.
 
-The projects in this repository are based primarily on **The Odin Project's Data Structures and Algorithms curriculum**.
+The projects in this repository are based primarily on **The Odin Project's Data Structures and Algorithms curriculum**, supplemented by independent practice and experimentation.
 
 ---
 
@@ -20,13 +20,13 @@ The projects in this repository are based primarily on **The Odin Project's Data
 
 ## 📚 Projects
 
-| Project                                                | Description                                                                            | Status      |
-| ------------------------------------------------------ | -------------------------------------------------------------------------------------- | ----------- |
-| [Fibonacci & MergeSort](./Fibonacci%20%26%20MergeSort) | Recursive Fibonacci and Merge Sort implementations                                     | ✅ Completed |
-| [LinkedList](./LinkedList)                             | Singly linked list implementation with key-value pair support                          | ✅ Completed |
-| [HashMap](./HashMap)                                   | Hash map implementation using linked lists for collision handling and dynamic resizing | ✅ Completed |
-| [BinarySearchTrees](./BinarySearchTrees)               | Binary search tree implementation and traversal algorithms                             | ⬜ Upcoming  |
-| [KnightsTravails](./KnightsTravails)                   | Finding the shortest path for a knight on a chessboard                                 | ⬜ Upcoming  |
+| Project                                                | Description                                                                                          | Status      |
+| ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | ----------- |
+| [Fibonacci & MergeSort](./Fibonacci%20%26%20MergeSort) | Recursive Fibonacci and Merge Sort implementations                                                   | ✅ Completed |
+| [LinkedList](./LinkedList)                             | Singly linked list implementation with key-value pair support                                        | ✅ Completed |
+| [HashMap](./HashMap)                                   | Hash map implementation using linked lists for collision handling and dynamic resizing               | ✅ Completed |
+| [BinarySearchTrees](./BinarySearchTrees)               | Binary search tree implementation with insertion, deletion, searching, and tree traversal algorithms | ✅ Completed |
+| [KnightsTravails](./KnightsTravails)                   | Uses Breadth-First Search to find the shortest path for a knight on a chessboard                     | ✅ Completed |
 
 ---
 
@@ -41,8 +41,12 @@ As this repository grows, it will cover topics including:
 * Binary Search Trees
 * Graphs
 * Tree Traversal
+* Graph Traversal
+* Breadth-First Search
+* Depth-First Search
 * Searching Algorithms
 * Algorithm Complexity
+* Shortest Path Algorithms
 * Problem Solving
 
 ---
@@ -81,8 +85,14 @@ DataStructuresAlgorithms/
 │   └── README.md
 │
 ├── BinarySearchTrees/
+│   ├── binarySearchTrees.js
+│   ├── binarySearchTrees.test.js
+│   └── README.md
 │
 ├── KnightsTravails/
+│   ├── knightMoves.js
+│   ├── knightMoves.test.js
+│   └── README.md
 │
 └── README.md
 ```
@@ -95,7 +105,7 @@ Projects that contain test suites use **Jest** to verify their implementations.
 
 Tests cover functionality, edge cases, and interactions between different operations.
 
-Example:
+Run the complete test suite with:
 
 ```bash
 npm test
@@ -107,6 +117,12 @@ Individual test files can also be executed directly with Jest:
 npx jest hashMap.test.js
 ```
 
+For example:
+
+```bash
+npx jest knightMoves.test.js
+```
+
 ---
 
 ## 📈 Progress
@@ -116,25 +132,21 @@ npx jest hashMap.test.js
 * ✅ Fibonacci & MergeSort
 * ✅ LinkedList
 * ✅ HashMap
-
-### Upcoming
-
-* ⬜ Binary Search Trees
-* ⬜ Knights Travails
-* ⬜ Graphs and additional algorithmic problems
-
-This repository will continue to grow as I work through increasingly complex data structures and algorithms.
+* ✅ Binary Search Trees
+* ✅ Knights Travails
 
 ---
 
 ## 📖 Learning Resources
 
-The projects in this repository are based primarily on **The Odin Project's JavaScript curriculum**, supplemented by independent practice and experimentation.
+The projects in this repository are based primarily on **The Odin Project's JavaScript curriculum**, supplemented by independent practice, experimentation, and problem-solving.
 
-The purpose of the repository is not just to have working implementations, but to develop a deeper understanding of **how these data structures and algorithms work internally** and why their time and space complexities matter.
+The purpose of this repository is not simply to have working implementations, but to develop a deeper understanding of **how data structures and algorithms work internally** and why their time and space complexities matter.
 
 ---
 
 ## 🚀 Purpose
 
 This repository serves as a practical record of my progress in **Data Structures & Algorithms** and my effort to build stronger computer science fundamentals through implementation and problem-solving.
+
+The ultimate goal is to become a better programmer by understanding **why and how things work under the hood**, rather than simply relying on abstractions and built-in methods.
